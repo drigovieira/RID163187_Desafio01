@@ -117,20 +117,19 @@
   font-weight: 700;
   line-height: 30px;
   font-family: 'raleway', sans-serif;
+}
+
+.form-container .form input::placeholder {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.form-container .enviar {
+.form-container .form .enviar {
   margin-top: 26px;
   background-color: #C07212;
   width: 286px;
   height: 74px;
+  padding-left: 0;
   color: white;
-  border-radius: 10px;
-  font-family: 'raleway', sans-serif;
   font-size: 30px;
-  font-weight: 700;
-  line-height: 30px;
-  border: none;
   cursor: pointer;
 }
