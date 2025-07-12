@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 20px;
+  height: 475px;
+  background-color: #303030;
+  padding-left: 62px;
+  color: white;
+}
+
+.top h1 {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: -2.5%;
+}
+
+.top p {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.top-main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 229px;
+  background-color: #F9F9F9;
+}
+
+.top-main p {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.top-main p > span {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.bottom-main {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  gap: 64px;
+  padding: 82px 64px;
+}
+
+.bottom-main .main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 32px;
+}
+
+.bottom-main .main-content h2 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.bottom-main .main-content p {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.bottom-main .image {
+  width: 510px;
+}
+
+.form-container {
+  background-color: #303030;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 48px;
+  height: 638px;
+}
+
+.form-container h2 {
+  color: white;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.form-container > .form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 62px;
+}
+
+.form-container > .form input {
+  width: 478px;
+  height: 72px;
+  border-radius: 10px;
+  padding-left: 30px;
+  border: none;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  font-family: 'raleway', sans-serif;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.form-container .enviar {
+  margin-top: 26px;
+  background-color: #C07212;
+  width: 286px;
+  height: 74px;
+  color: white;
+  border-radius: 10px;
+  font-family: 'raleway', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 30px;
+  border: none;
+  cursor: pointer;
+}
